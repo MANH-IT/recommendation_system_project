@@ -1,0 +1,10 @@
+data:
+  raw_path: "data/raw/ml-latest-small"  # Path to raw data directory
+  ratings_file: "ratings.csv"           # File containing user ratings
+  movies_file: "movies.csv"             # File containing movie information
+model:
+  save_path: "models/similarity_matrix.pkl"  # Path to save the similarity matrix
+  num_recommendations: 5                    # Default number of recommendations
+logging:
+  log_file: "logs/app.log"              # Path to log file
+  level: "INFO"                         # Logging level (INFO, DEBUG, ERROR)
