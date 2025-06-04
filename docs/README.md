@@ -1,10 +1,17 @@
-# Recommendation_System_Project
+# Recommendation System Project
 
-## Description
-A project to build a movie recommendation system using the MovieLens (ml-latest-small) dataset.
+This project is a movie recommendation system using collaborative filtering.
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   cd Recommendation_System_Project
+## Structure
+- `data/`: Raw and processed datasets
+- `src/`: Source code for data loading, preprocessing, modeling
+- `models/`: Trained model files
+- `configs/`: Configuration files
+- `scripts/`: Automation scripts
+- `tests/`: Unit tests
+
+## Setup
+```bash
+python -m venv venv_recommendation
+venv_recommendation\Scripts\activate
+pip install -r requirements.txt
